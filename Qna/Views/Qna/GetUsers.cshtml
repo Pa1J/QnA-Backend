@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "GetUsers";
+}
+
+@foreach (var user in ViewBag.Users)
+{
+    <h1>@user.Name</h1>
+    <h4>Id: @user.Id</h4>
+    <h4>Description: @user.Email</h4>
+}

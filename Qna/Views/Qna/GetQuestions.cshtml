@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "GetQuestions";
+}
+
+
+@foreach (var question in ViewBag.Questions)
+{
+    <h1>@question.Statement</h1>
+    <h4>Id: @question.Id</h4>
+    <h4>Description: @question.Description</h4>
+}

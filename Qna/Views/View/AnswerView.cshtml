@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "AnswerView";
+}
+
+<h2>AnswerView</h2>
+@foreach (var answerView in ViewBag.answerViewList)
+{
+    <h1>@answerView.Name</h1>
+    <h4>Description: @answerView.Description</h4>
+}

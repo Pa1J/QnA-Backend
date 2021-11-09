@@ -176,21 +176,26 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QnaController.cs" />
+    <Compile Include="Controllers\ViewController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CoreModels\Answer.cs" />
     <Compile Include="Models\CoreModels\Categeory.cs" />
+    <Compile Include="Models\CoreModels\CategoryView.cs" />
     <Compile Include="Models\CoreModels\Liked.cs" />
     <Compile Include="Models\CoreModels\Question.cs" />
     <Compile Include="Models\CoreModels\Users.cs" />
     <Compile Include="Models\CoreModels\Viewed.cs" />
     <Compile Include="Models\CoreModels\Voted.cs" />
     <Compile Include="Models\DataModels\Answer.cs" />
+    <Compile Include="Models\DataModels\AnswerView.cs" />
     <Compile Include="Models\DataModels\Categeory.cs" />
+    <Compile Include="Models\DataModels\CategoryView.cs" />
     <Compile Include="Models\DataModels\Liked.cs" />
     <Compile Include="Models\DataModels\Question.cs" />
     <Compile Include="Models\DataModels\Users.cs" />
+    <Compile Include="Models\DataModels\UserView.cs" />
     <Compile Include="Models\DataModels\Viewed.cs" />
     <Compile Include="Models\DataModels\Voted.cs" />
     <Compile Include="Models\QnaDbContext.cs" />
@@ -234,6 +239,13 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Qna\Index.cshtml" />
     <Content Include="Views\Qna\AddCategory.cshtml" />
+    <Content Include="Views\Qna\GetQuestions.cshtml" />
+    <Content Include="Views\Qna\GetUsers.cshtml" />
+    <Content Include="Views\Qna\AddUser.cshtml" />
+    <Content Include="Views\Qna\AddQuestion.cshtml" />
+    <Content Include="Views\View\CategoryView.cshtml" />
+    <Content Include="Views\View\UserView.cshtml" />
+    <Content Include="Views\View\AnswerView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

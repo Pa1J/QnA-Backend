@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "UserView";
+}
+
+<h2>UserView</h2>
+@foreach (var userView in ViewBag.UserViewList)
+{
+    <h1>@userView.Name</h1>
+    <h4>Description: @userView.Description</h4>
+}
+
+

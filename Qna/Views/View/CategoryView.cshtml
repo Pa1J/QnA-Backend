@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "CategoryView";
+}
+
+<h2>CategoryView</h2>
+@foreach (var categoryView in ViewBag.CategoryViewList)
+{
+    <h1>@categoryView.Name</h1>
+    <h4>Description: @categoryView.Description</h4>
+}
